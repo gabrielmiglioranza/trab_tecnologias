@@ -8,19 +8,32 @@ using InteractiveUtils
 using Images
 
 # ╔═╡ 7bc86998-9b96-11ef-2ee6-4d91db9ddabc
-A = [1  5
-	 2  2]
+A = rand(1:10, 10, 10)
 
 # ╔═╡ 81f378f6-d220-4df1-b92a-f207ad67eb83
-B = [1 2
-	3 17]
+B = rand(1:10, 10, 10)
 
 # ╔═╡ 7d67f4bd-ce81-49a0-ba11-c2cd12641a27
-#scheme=rand(RGB,100)
-scheme=rand(RGB,20)
+scheme=rand(RGB,100)
+#scheme=rand(RGB, 10)
+
+# ╔═╡ cc58997c-06f9-41ec-8ecf-1cc87f83480e
+
 
 # ╔═╡ a3f56a12-6b24-428c-b010-d05bcfeb69c4
 scheme[A+B]
+
+# ╔═╡ 36e2f44c-461f-4d97-b422-1e792a178206
+scheme[A]
+
+# ╔═╡ 4bf4a72d-3d14-418a-8e3c-534171eddefb
+scheme[2*A]
+
+# ╔═╡ 105771bf-d517-4b87-bd66-018b82a92a81
+scheme[A']
+
+# ╔═╡ e31536ea-53b0-4286-ab63-dd8228fa18c8
+RGB(1,0.5,0.5)/25
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -1297,6 +1310,11 @@ version = "17.4.0+2"
 # ╠═81f378f6-d220-4df1-b92a-f207ad67eb83
 # ╠═b13043da-949f-4b55-a19a-9fed132f195a
 # ╠═7d67f4bd-ce81-49a0-ba11-c2cd12641a27
+# ╠═cc58997c-06f9-41ec-8ecf-1cc87f83480e
 # ╠═a3f56a12-6b24-428c-b010-d05bcfeb69c4
+# ╠═36e2f44c-461f-4d97-b422-1e792a178206
+# ╠═4bf4a72d-3d14-418a-8e3c-534171eddefb
+# ╠═105771bf-d517-4b87-bd66-018b82a92a81
+# ╠═e31536ea-53b0-4286-ab63-dd8228fa18c8
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
