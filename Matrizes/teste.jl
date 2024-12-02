@@ -27,7 +27,7 @@ scheme[A+B]
 scheme[A]
 
 # ╔═╡ 4bf4a72d-3d14-418a-8e3c-534171eddefb
-scheme[2*A]
+scheme[A]
 
 # ╔═╡ 105771bf-d517-4b87-bd66-018b82a92a81
 scheme[A']
