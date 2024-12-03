@@ -13,7 +13,7 @@ md"""
 md"""
 ## Noção de Matriz
 
-Chamamos de Matriz (m x n) toda tabela de números reais distribuídos em *m* linhass e *n* colunas.
+Chamamos de Matriz (m x n) toda tabela de números reais distribuídos em *m* linhas e *n* colunas.
 A seguir apresentamos um exemplo de matriz 2x3, duas linhas e três colunas:
 
 $A = \begin{bmatrix}
@@ -167,13 +167,9 @@ N = zeros(3,2)
 # ╔═╡ 0a0528ce-1269-4a39-ae86-442b0fa03eb8
 md"""
 # Exercícios
-a) Crie uma matriz linha.
+a) Crie uma matriz nula.
 
-b) Crie uma matriz coluna.
-
-c) Crie uma matriz nula.
-
-d) Crie uma matriz unidade.
+b) Crie uma matriz unidade.
 """
 
 # ╔═╡ e0eb748f-b672-414d-9fbd-3eaca843e31d
@@ -182,14 +178,6 @@ d) Crie uma matriz unidade.
 
 # ╔═╡ 5d3ff964-51ba-44a3-8df7-d472ca990e27
 # Resolva o item b) aqui
-
-
-# ╔═╡ dfbf8d40-5bb6-4ad9-83e7-82849d5c96af
-# Resolva o item c) aqui
-
-
-# ╔═╡ 7c0f9d3f-edf0-432a-b68b-974eea96de77
-# Resolva o item d) aqui
 
 
 # ╔═╡ Cell order:
@@ -215,8 +203,6 @@ d) Crie uma matriz unidade.
 # ╟─77981306-1d37-48fc-919c-71a04e750e6f
 # ╟─2087e701-f77a-47c6-9389-4d00a1228ae0
 # ╠═f108e053-db59-4c45-b036-4a9d1fe0f88f
-# ╟─0a0528ce-1269-4a39-ae86-442b0fa03eb8
+# ╠═0a0528ce-1269-4a39-ae86-442b0fa03eb8
 # ╠═e0eb748f-b672-414d-9fbd-3eaca843e31d
 # ╠═5d3ff964-51ba-44a3-8df7-d472ca990e27
-# ╠═dfbf8d40-5bb6-4ad9-83e7-82849d5c96af
-# ╠═7c0f9d3f-edf0-432a-b68b-974eea96de77
